@@ -15,7 +15,4 @@ public class Customer {
     public void pay(double moneyAmount){
         balance -= moneyAmount;
     }
-    public double getAmount(){
-        return balance;
-    }
 }
