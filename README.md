@@ -49,3 +49,6 @@ by checking if the item is instance of shippable and needs shipping and then com
 then creates the checkout receipt
 it will compute the total price of all items the customer chooses within the subtotal and then add the shipping if there were any shippable items and after that gives the total price
 
+---------------------------
+and Thank you Fawry Team to make me practice such an example like this that touch real life systems :))
+and check commits :)
