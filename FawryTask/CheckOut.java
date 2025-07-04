@@ -79,6 +79,6 @@ public class CheckOut {
         System.out.printf("Subtotal         %.0f%n", subtotal);
         System.out.printf("Shipping         %.0f%n", shipping);
         System.out.printf("Amount           %.0f%n", total);
-        System.out.printf("Remaining Balance: %.1f%n", customer.getAmount());
+        //System.out.printf("Remaining Balance: %.1f%n", customer.getAmount());
     }
 }
