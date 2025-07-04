@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Cart {
     private final ArrayList<CartItem> items = new ArrayList<>();
 
-    public void addItem(@org.jetbrains.annotations.NotNull Product product, int quantity){
+    public void addItem(Product product, int quantity){
         if(!product.isAvailable(quantity)){
             throw new IllegalArgumentException("No enough stock for "+product.getName());
         }
