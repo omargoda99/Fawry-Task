@@ -3,12 +3,11 @@
  * @author Omar Goda
  */
 
-import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CheckOut {
-    public static void checkout(Customer customer, @NotNull Cart cart) {
+    public static void checkout(Customer customer, Cart cart) {
         if (cart.isEmpty()) {
             throw new IllegalStateException("Cart is empty.");
         }
